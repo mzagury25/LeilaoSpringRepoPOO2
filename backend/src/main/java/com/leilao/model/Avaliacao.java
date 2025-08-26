@@ -49,10 +49,10 @@ public class Avaliacao {
     public void setId(Long id) { this.id = id; }
 
     public Usuario getAvaliador() { return avaliador; }
-    public void setAvaliador(String avaliador) { this.avaliador = avaliador; }
+    public void setAvaliador(Usuario avaliador) { this.avaliador = avaliador; }
 
     public Usuario getAvaliado() { return avaliado; }
-    public void setAvaliado(String avaliado) { this.avaliado = avaliado; }
+    public void setAvaliado(Usuario avaliado) { this.avaliado = avaliado; }
 
     public int getPontuacao() { return pontuacao; }
     public void setPontuacao(int pontuacao) { this.pontuacao = pontuacao; }
@@ -64,5 +64,5 @@ public class Avaliacao {
     public void setDataAvaliacao(LocalDate dataAvaliacao) { this.dataAvaliacao = dataAvaliacao; }
 
     public Leilao getLeilao() { return leilao; }
-    public void setLeilao(String leilao) { this.leilao = leilao; }
+    public void setLeilao(Leilao leilao) { this.leilao = leilao; }
 }
